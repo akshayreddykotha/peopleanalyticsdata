@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: peopleanalyticsdata
+Version: 0.1.1
+Summary: Allows data access from the book - Handbook of Regression Modeling in People Analytics.
+Home-page: https://github.com/akshayreddykotha/peopleanalyticsdata
+Author: Akshay Kotha
+Author-email: kakr2795@gmail.com
+License: UNKNOWN
+Description: This effort is to port the package in R to Python. 
+        
+        As an initial idea, trying to make the data available as an accessible python package which can be 'pip install ...' and called for statistical analysis and inference modelling.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6

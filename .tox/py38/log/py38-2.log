@@ -1,0 +1,16 @@
+action: py38, msg: installpkg
+cwd: /home/jovyan/git/peopleanalytics-python
+cmd: /home/jovyan/git/peopleanalytics-python/.tox/py38/bin/python -m pip install --exists-action w .tox/.tmp/package/1/peopleanalyticspython-0.1.0.zip
+Processing ./.tox/.tmp/package/1/peopleanalyticspython-0.1.0.zip
+Building wheels for collected packages: peopleanalyticspython
+  Building wheel for peopleanalyticspython (setup.py): started
+  Building wheel for peopleanalyticspython (setup.py): finished with status 'done'
+  Created wheel for peopleanalyticspython: filename=peopleanalyticspython-0.1.0-py3-none-any.whl size=3405 sha256=064028e69c2f869ea36c5bc59263784bad84c4df053bb869c80aeaf649f2fd23
+  Stored in directory: /home/jovyan/.cache/pip/wheels/09/82/a0/938521e6d1960b089f79e004734811bac4c96de9b17addd7ae
+Successfully built peopleanalyticspython
+Installing collected packages: peopleanalyticspython
+  Attempting uninstall: peopleanalyticspython
+    Found existing installation: peopleanalyticspython 0.1.0
+    Not uninstalling peopleanalyticspython at /home/jovyan/git/peopleanalytics-python, outside environment /home/jovyan/git/peopleanalytics-python/.tox/py38
+    Can't uninstall 'peopleanalyticspython'. No files were found to uninstall.
+Successfully installed peopleanalyticspython-0.1.0

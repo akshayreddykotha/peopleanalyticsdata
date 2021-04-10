@@ -1,6 +1,11 @@
 import pkg_resources
 import pandas as pd
 
+#####################################################################
+# Below is a list of all the functions which return datasets by name
+#####################################################################
+
+# charity_donation
 def charity_donation():
     """Return a dataframe about the charity donation.
 
@@ -20,6 +25,7 @@ def charity_donation():
     stream = pkg_resources.resource_stream(__name__, 'data/charity_donation.csv')
     return pd.read_csv(stream)
 
+# employee_survey
 def employee_survey():
     """Return a dataframe about the employee survey.
 
@@ -45,6 +51,7 @@ def employee_survey():
     stream = pkg_resources.resource_stream(__name__, 'data/employee_survey.csv')
     return pd.read_csv(stream)
 
+# health_insurance
 def health_insurance():
     """Return a dataframe about the health insurance
     
@@ -62,6 +69,7 @@ def health_insurance():
     stream = pkg_resources.resource_stream(__name__, 'data/health_insurance.csv')
     return pd.read_csv(stream)
 
+# job_retention
 def job_retention():
     """Return a dataframe about job retention
     
@@ -80,6 +88,7 @@ def job_retention():
     stream = pkg_resources.resource_stream(__name__, 'data/job_retention.csv')
     return pd.read_csv(stream)
 
+# managers
 def managers():
     """Return a dataframe about managers
     
@@ -104,7 +113,7 @@ def managers():
     stream = pkg_resources.resource_stream(__name__, 'data/managers.csv')
     return pd.read_csv(stream)
 
-
+# politics_survey
 def politics_survey():
     """Return a dataframe about politics survey
     
@@ -138,4 +147,98 @@ def politics_survey():
     """
     stream = pkg_resources.resource_stream(__name__, 'data/politics_survey.csv')
     return pd.read_csv(stream)
+
+def salespeople():
+    """Return a dataframe about salespeople
+    
+    Contains the following fields:
+    
+         #   Column         Non-Null Count  Dtype  
+        ---  ------         --------------  -----  
+         0   promoted       351 non-null    int64  
+         1   sales          350 non-null    float64
+         2   customer_rate  350 non-null    float64
+         3   performance    350 non-null    float64  
+    """
+    stream = pkg_resources.resource_stream(__name__, 'data/salespeople.csv')
+    return pd.read_csv(stream)
+
+# soccer
+def soccer():
+    """Return a dataframe about soccer
+    
+    Contains the following fields:
+    
+        #   Column       Non-Null Count  Dtype 
+        ---  ------       --------------  ----- 
+         0   discipline   2291 non-null   object
+         1   n_yellow_25  2291 non-null   int64 
+         2   n_red_25     2291 non-null   int64 
+         3   position     2291 non-null   object
+         4   result       2291 non-null   object
+         5   country      2291 non-null   object
+         6   level        2291 non-null   int64
+    """
+    stream = pkg_resources.resource_stream(__name__, 'data/soccer.csv')
+    return pd.read_csv(stream)
+
+# sociological data
+def sociological_data():
+    """Return a dataframe about sociological data
+    
+    Contains the following fields:
+    
+        #   Column       Non-Null Count  Dtype 
+        ---  ------       --------------  ----- 
+         0   discipline   2291 non-null   object
+         1   n_yellow_25  2291 non-null   int64 
+         2   n_red_25     2291 non-null   int64 
+         3   position     2291 non-null   object
+         4   result       2291 non-null   object
+         5   country      2291 non-null   object
+         6   level        2291 non-null   int64
+    """
+    stream = pkg_resources.resource_stream(__name__, 'data/sociological_data.csv')
+    return pd.read_csv(stream)
+
+# speed_dating
+def speed_dating():
+    """Return a dataframe about speed dating
+    
+    Contains the following fields:
+    
+         #   Column    Non-Null Count  Dtype  
+        ---  ------    --------------  -----  
+         0   iid       8378 non-null   int64  
+         1   gender    8378 non-null   int64  
+         2   match     8378 non-null   int64  
+         3   samerace  8378 non-null   int64  
+         4   race      8315 non-null   float64
+         5   goal      8299 non-null   float64
+         6   dec       8378 non-null   int64  
+         7   attr      8176 non-null   float64
+         8   intel     8082 non-null   float64
+         9   prob      8069 non-null   float64
+         10  agediff   8180 non-null   float64
+    """
+    stream = pkg_resources.resource_stream(__name__, 'data/speed_dating.csv')
+    return pd.read_csv(stream)
+
+# ugtests
+def ugtests():
+    """Return a dataframe about ugtests
+    
+    Contains the following fields:
+    
+          #   Column  Non-Null Count  Dtype
+        ---  ------  --------------  -----
+         0   Yr1     975 non-null    int64
+         1   Yr2     975 non-null    int64
+         2   Yr3     975 non-null    int64
+         3   Final   975 non-null    int64
+    """
+    stream = pkg_resources.resource_stream(__name__, 'data/ugtests.csv')
+    return pd.read_csv(stream)
+
+
 

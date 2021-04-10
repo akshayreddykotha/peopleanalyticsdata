@@ -1,0 +1,7 @@
+action: 'py38'], msg: getenv
+cwd: /home/jovyan/git/peopleanalytics-python/.tox
+cmd: /usr/bin/python -m virtualenv --no-download --python /usr/bin/python ''"'"'py38'"'"']'
+created virtual environment CPython3.8.5.final.0-64 in 7502ms
+  creator CPython3Posix(dest=/home/jovyan/git/peopleanalytics-python/.tox/'py38'], clear=False, global=False)
+  seeder FromAppData(download=False, html5lib=latest, wheel=latest, msgpack=latest, pkg_resources=latest, setuptools=latest, certifi=latest, pyparsing=latest, ipaddr=latest, packaging=latest, pep517=latest, contextlib2=latest, urllib3=latest, chardet=latest, requests=latest, pytoml=latest, distlib=latest, retrying=latest, idna=latest, pip=latest, six=latest, CacheControl=latest, appdirs=latest, progress=latest, distro=latest, webencodings=latest, lockfile=latest, colorama=latest, via=copy, app_data_dir=/home/jovyan/.local/share/virtualenv/seed-app-data/v1.0.1.debian)
+  activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator

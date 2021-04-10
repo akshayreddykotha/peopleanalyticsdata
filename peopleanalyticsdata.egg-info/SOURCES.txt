@@ -1,0 +1,13 @@
+DESCRIPTION.rst
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+peopleanalyticsdata/__init__.py
+peopleanalyticsdata/peopleanalyticsdata.py
+peopleanalyticsdata.egg-info/PKG-INFO
+peopleanalyticsdata.egg-info/SOURCES.txt
+peopleanalyticsdata.egg-info/dependency_links.txt
+peopleanalyticsdata.egg-info/top_level.txt
+tests/__init__.py
+tests/test_peopleanalyticsdata.py
