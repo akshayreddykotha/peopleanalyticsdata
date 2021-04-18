@@ -11,6 +11,6 @@ def test_shape_of_output():
     assert politics_survey().shape[1] == 23
     assert salespeople().shape[1] == 4
     assert soccer().shape[1] == 7
-    assert sociological_data().shape[1] == 7
+    assert sociological_data().shape[1] == 9
     assert speed_dating().shape[1] == 11
     assert ugtests().shape[1] == 4

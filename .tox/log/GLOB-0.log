@@ -3,48 +3,51 @@ cwd: /home/jovyan/git/peopleanalytics-python
 cmd: /usr/bin/python setup.py sdist --formats=zip --dist-dir .tox/dist
 running sdist
 running egg_info
-writing peopleanalyticspython.egg-info/PKG-INFO
-writing dependency_links to peopleanalyticspython.egg-info/dependency_links.txt
-writing top-level names to peopleanalyticspython.egg-info/top_level.txt
-reading manifest file 'peopleanalyticspython.egg-info/SOURCES.txt'
+writing peopleanalyticsdata.egg-info/PKG-INFO
+writing dependency_links to peopleanalyticsdata.egg-info/dependency_links.txt
+writing top-level names to peopleanalyticsdata.egg-info/top_level.txt
+adding license file 'LICENSE' (matched pattern 'LICEN[CS]E*')
+reading manifest file 'peopleanalyticsdata.egg-info/SOURCES.txt'
 reading manifest template 'MANIFEST.in'
-writing manifest file 'peopleanalyticspython.egg-info/SOURCES.txt'
+writing manifest file 'peopleanalyticsdata.egg-info/SOURCES.txt'
 running check
-creating peopleanalyticspython-0.1.0
-creating peopleanalyticspython-0.1.0/peopleanalyticsdata
-creating peopleanalyticspython-0.1.0/peopleanalyticspython.egg-info
-creating peopleanalyticspython-0.1.0/tests
-copying files to peopleanalyticspython-0.1.0...
-copying DESCRIPTION.rst -> peopleanalyticspython-0.1.0
-copying MANIFEST.in -> peopleanalyticspython-0.1.0
-copying README.md -> peopleanalyticspython-0.1.0
-copying setup.py -> peopleanalyticspython-0.1.0
-copying peopleanalyticsdata/__init__.py -> peopleanalyticspython-0.1.0/peopleanalyticsdata
-copying peopleanalyticsdata/peopleanalyticsdata.py -> peopleanalyticspython-0.1.0/peopleanalyticsdata
-copying peopleanalyticspython.egg-info/PKG-INFO -> peopleanalyticspython-0.1.0/peopleanalyticspython.egg-info
-copying peopleanalyticspython.egg-info/SOURCES.txt -> peopleanalyticspython-0.1.0/peopleanalyticspython.egg-info
-copying peopleanalyticspython.egg-info/dependency_links.txt -> peopleanalyticspython-0.1.0/peopleanalyticspython.egg-info
-copying peopleanalyticspython.egg-info/top_level.txt -> peopleanalyticspython-0.1.0/peopleanalyticspython.egg-info
-copying tests/__init__.py -> peopleanalyticspython-0.1.0/tests
-copying tests/test_peopleanalyticsdata.py -> peopleanalyticspython-0.1.0/tests
-Writing peopleanalyticspython-0.1.0/setup.cfg
-creating '.tox/dist/peopleanalyticspython-0.1.0.zip' and adding 'peopleanalyticspython-0.1.0' to it
-adding 'peopleanalyticspython-0.1.0'
-adding 'peopleanalyticspython-0.1.0/peopleanalyticsdata'
-adding 'peopleanalyticspython-0.1.0/peopleanalyticspython.egg-info'
-adding 'peopleanalyticspython-0.1.0/tests'
-adding 'peopleanalyticspython-0.1.0/DESCRIPTION.rst'
-adding 'peopleanalyticspython-0.1.0/MANIFEST.in'
-adding 'peopleanalyticspython-0.1.0/PKG-INFO'
-adding 'peopleanalyticspython-0.1.0/README.md'
-adding 'peopleanalyticspython-0.1.0/setup.cfg'
-adding 'peopleanalyticspython-0.1.0/setup.py'
-adding 'peopleanalyticspython-0.1.0/peopleanalyticsdata/__init__.py'
-adding 'peopleanalyticspython-0.1.0/peopleanalyticsdata/peopleanalyticsdata.py'
-adding 'peopleanalyticspython-0.1.0/peopleanalyticspython.egg-info/PKG-INFO'
-adding 'peopleanalyticspython-0.1.0/peopleanalyticspython.egg-info/SOURCES.txt'
-adding 'peopleanalyticspython-0.1.0/peopleanalyticspython.egg-info/dependency_links.txt'
-adding 'peopleanalyticspython-0.1.0/peopleanalyticspython.egg-info/top_level.txt'
-adding 'peopleanalyticspython-0.1.0/tests/__init__.py'
-adding 'peopleanalyticspython-0.1.0/tests/test_peopleanalyticsdata.py'
-removing 'peopleanalyticspython-0.1.0' (and everything under it)
+creating peopleanalyticsdata-0.1.1
+creating peopleanalyticsdata-0.1.1/peopleanalyticsdata
+creating peopleanalyticsdata-0.1.1/peopleanalyticsdata.egg-info
+creating peopleanalyticsdata-0.1.1/tests
+copying files to peopleanalyticsdata-0.1.1...
+copying DESCRIPTION.rst -> peopleanalyticsdata-0.1.1
+copying LICENSE -> peopleanalyticsdata-0.1.1
+copying MANIFEST.in -> peopleanalyticsdata-0.1.1
+copying README.md -> peopleanalyticsdata-0.1.1
+copying setup.py -> peopleanalyticsdata-0.1.1
+copying peopleanalyticsdata/__init__.py -> peopleanalyticsdata-0.1.1/peopleanalyticsdata
+copying peopleanalyticsdata/peopleanalyticsdata.py -> peopleanalyticsdata-0.1.1/peopleanalyticsdata
+copying peopleanalyticsdata.egg-info/PKG-INFO -> peopleanalyticsdata-0.1.1/peopleanalyticsdata.egg-info
+copying peopleanalyticsdata.egg-info/SOURCES.txt -> peopleanalyticsdata-0.1.1/peopleanalyticsdata.egg-info
+copying peopleanalyticsdata.egg-info/dependency_links.txt -> peopleanalyticsdata-0.1.1/peopleanalyticsdata.egg-info
+copying peopleanalyticsdata.egg-info/top_level.txt -> peopleanalyticsdata-0.1.1/peopleanalyticsdata.egg-info
+copying tests/__init__.py -> peopleanalyticsdata-0.1.1/tests
+copying tests/test_peopleanalyticsdata.py -> peopleanalyticsdata-0.1.1/tests
+Writing peopleanalyticsdata-0.1.1/setup.cfg
+creating '.tox/dist/peopleanalyticsdata-0.1.1.zip' and adding 'peopleanalyticsdata-0.1.1' to it
+adding 'peopleanalyticsdata-0.1.1'
+adding 'peopleanalyticsdata-0.1.1/peopleanalyticsdata'
+adding 'peopleanalyticsdata-0.1.1/peopleanalyticsdata.egg-info'
+adding 'peopleanalyticsdata-0.1.1/tests'
+adding 'peopleanalyticsdata-0.1.1/DESCRIPTION.rst'
+adding 'peopleanalyticsdata-0.1.1/LICENSE'
+adding 'peopleanalyticsdata-0.1.1/MANIFEST.in'
+adding 'peopleanalyticsdata-0.1.1/PKG-INFO'
+adding 'peopleanalyticsdata-0.1.1/README.md'
+adding 'peopleanalyticsdata-0.1.1/setup.cfg'
+adding 'peopleanalyticsdata-0.1.1/setup.py'
+adding 'peopleanalyticsdata-0.1.1/peopleanalyticsdata/__init__.py'
+adding 'peopleanalyticsdata-0.1.1/peopleanalyticsdata/peopleanalyticsdata.py'
+adding 'peopleanalyticsdata-0.1.1/peopleanalyticsdata.egg-info/PKG-INFO'
+adding 'peopleanalyticsdata-0.1.1/peopleanalyticsdata.egg-info/SOURCES.txt'
+adding 'peopleanalyticsdata-0.1.1/peopleanalyticsdata.egg-info/dependency_links.txt'
+adding 'peopleanalyticsdata-0.1.1/peopleanalyticsdata.egg-info/top_level.txt'
+adding 'peopleanalyticsdata-0.1.1/tests/__init__.py'
+adding 'peopleanalyticsdata-0.1.1/tests/test_peopleanalyticsdata.py'
+removing 'peopleanalyticsdata-0.1.1' (and everything under it)
