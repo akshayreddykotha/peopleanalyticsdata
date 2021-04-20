@@ -1,8 +1,32 @@
-# peopleanalytics-python
+# Overview
 
-This effort is to port the package in R to Python. Please refer this [article](https://towardsdatascience.com/beginner-friendly-data-science-projects-accepting-contributions-3b8e26f7e88e) for more details on the same.
+Project name: peopleanalytics-python
 
-As an initial idea, trying to make the data available as an accessible python package which can be 'pip install ...' and called for statistical analysis and inference modeling.
+This package is port of an R package associated with the [free online](http://peopleanalytics-regression-book.org/) book _Handbook of Regression Modeling in People Analytics_ by Keith McNulty. Some additional information about the inspiration [here](https://towardsdatascience.com/beginner-friendly-data-science-projects-accepting-contributions-3b8e26f7e88e#14bf).
 
-This package will be providing a different set of data sets for budding data scientists to explore and analyze. Consider it as a alternative version of iris data sets and the similar ones on the UCI Machine Learning repository.
+# Background
 
+At peopleanalytics-regression-book.org, McNulty makes the data referenced in _Handbook of Regression Modeling in People Analytics_ available [via an R package](https://cran.r-project.org/package=peopleanalyticsdata). McNulty explains:
+
+_For R and Python users, each of the data sets used in this book can be downloaded individually by following the code in each chapter. Alternatively for R users who intend to work through all of the chapters, all data sets can be loaded into an R session in advance by installing and loading the peopleanalyticsdata R package._
+
+Once fully developed, this package will bring the functionality of McNulty's R package to Python users. As an initial idea, following a `pip install ...` the following will make these data more accessible for Python users with the following code:
+
+```Python
+# import peopleanalyticsdata package
+import peopleanalyticdata as pad
+import pandas as pd
+
+# see a list of data sets
+pad.list_sets()
+
+# find out more about a specific data set ('managers' example)
+pad.help(managers)
+
+# load data into a dataframe
+df pad.load(managers)
+```
+
+# LICENSE
+
+- NEEDS LICENSE INFORMATION - The original was MIT which I think requires derivitaves to also be MIT.
