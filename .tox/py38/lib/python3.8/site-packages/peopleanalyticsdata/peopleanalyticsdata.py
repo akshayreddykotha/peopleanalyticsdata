@@ -5,6 +5,16 @@ import pandas as pd
 # Below is a list of all the functions which return datasets by name
 #####################################################################
 
+def list_sets():
+    """Lists the data set names. All the data sets can be saved as a data frame by calling the names as methods."""
+    
+    return ['charity_donation', 'employee_survey', 
+           'health_insurance', 'job_retention', 
+           'managers', 'politics_survey',
+           'salespeople', 'soccer',
+           'sociological_data', 'speed_dating',
+           'ugtests']
+
 # charity_donation
 def charity_donation():
     """Return a dataframe about the charity donation.

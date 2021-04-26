@@ -1,8 +1,9 @@
 import pytest, pandas
-from peopleanalyticsdata.peopleanalyticsdata import charity_donation, employee_survey, health_insurance, job_retention, managers, politics_survey, salespeople, soccer, sociological_data, speed_dating, ugtests
+from peopleanalyticsdata.peopleanalyticsdata import list_sets, charity_donation, employee_survey, health_insurance, job_retention, managers, politics_survey, salespeople, soccer, sociological_data, speed_dating, ugtests
 
 def test_shape_of_output():
 #     assert type(charity_donation()) == '<class 'pandas.core.frame.DataFrame'>'
+    assert len(list_sets()) == 11
     assert charity_donation().shape[1] == 8
     assert employee_survey().shape[1] == 14
     assert health_insurance().shape[1] == 6
