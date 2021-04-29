@@ -8,7 +8,7 @@ setuptools.setup(
     author="Akshay Kotha",
     author_email="kakr2795@gmail.com",
     description="Allows data access from the book - Handbook of Regression Modeling in People Analytics.",
-    long_description=open('DESCRIPTION.rst').read(),
+    long_description=open('README.md').read(),
     packages=setuptools.find_packages(),
     install_requires=[],
     classifiers=[
