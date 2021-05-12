@@ -1,10 +1,10 @@
-Metadata-Version: 1.1
+Metadata-Version: 2.1
 Name: peopleanalyticsdata
-Version: 0.1.3
+Version: 0.1.4
 Summary: Allows data access from the book - Handbook of Regression Modeling in People Analytics.
 Home-page: https://github.com/akshayreddykotha/peopleanalyticsdata
 Author: Akshay Kotha
-Author-email: kakr2795@gmail.com
+Author-email: akotha@ucsd.edu
 License: UNKNOWN
 Description: # Overview
         
@@ -18,34 +18,36 @@ Description: # Overview
         
         _For R and Python users, each of the data sets used in this book can be downloaded individually by following the code in each chapter. Alternatively for R users who intend to work through all of the chapters, all data sets can be loaded into an R session in advance by installing and loading the peopleanalyticsdata R package._
         
-        Once fully developed, this package will bring the functionality of McNulty's R package to Python users. As an initial idea, following a `pip install ...` will make these data sets accessible for Python users. These data sets can also be used as an alternative to the very common public data sets (iris, wine quality, etc) available on UCI repository to understand the concepts of exploratory data analysis and predictive modeling.
+        This package brings the functionality of McNulty's R package to Python users. As an initial idea, following a `pip install ...` will make these data sets accessible for Python users. These data sets can also be used as an alternative to the very common public data sets (iris, wine quality, etc) available on UCI repository to understand the concepts of exploratory data analysis and predictive modeling.
         
         # Usage
         
         ```Python
         # import peopleanalyticsdata package
-        import peopleanalyticdata as pad
+        import peopleanalyticsdata as pad
         import pandas as pd
         
         # see a list of data sets
         pad.list_sets()
         
-        # find out more about a specific data set ('managers' example)
         # pad.help(managers)
         
         # load data into a dataframe
         df = pad.managers()
-        ```
         
+        # find out more about a specific data set ('managers' example)
+        pad.managers().info()
+        ```
         # Data dictionary
         
         The data dictionary pertinent to all the data sets can be found [here](https://cran.r-project.org/web/packages/peopleanalyticsdata/peopleanalyticsdata.pdf).
         
         # LICENSE
         
-        - NEEDS LICENSE INFORMATION - The original was MIT which I think requires derivatives to also be MIT.
+        - MIT
         
 Platform: UNKNOWN
 Classifier: Programming Language :: Python
 Classifier: Programming Language :: Python :: 3
 Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown

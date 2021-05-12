@@ -6,28 +6,28 @@ Collecting pydocstyle
 Collecting pycodestyle
   Using cached pycodestyle-2.7.0-py2.py3-none-any.whl (41 kB)
 Collecting pytest
-  Using cached pytest-6.2.2-py3-none-any.whl (280 kB)
+  Downloading pytest-6.2.4-py3-none-any.whl (280 kB)
 Collecting pandas
-  Using cached pandas-1.2.3-cp38-cp38-manylinux1_x86_64.whl (9.7 MB)
+  Downloading pandas-1.2.4-cp38-cp38-manylinux1_x86_64.whl (9.7 MB)
 Collecting snowballstemmer
   Using cached snowballstemmer-2.1.0-py2.py3-none-any.whl (93 kB)
 Requirement already satisfied: packaging in ./.tox/py38/lib/python3.8/site-packages (from pytest) (20.3)
-Collecting attrs>=19.2.0
-  Using cached attrs-20.3.0-py2.py3-none-any.whl (49 kB)
-Collecting toml
-  Using cached toml-0.10.2-py2.py3-none-any.whl (16 kB)
 Collecting pluggy<1.0.0a1,>=0.12
   Using cached pluggy-0.13.1-py2.py3-none-any.whl (18 kB)
-Collecting py>=1.8.2
-  Using cached py-1.10.0-py2.py3-none-any.whl (97 kB)
 Collecting iniconfig
   Using cached iniconfig-1.1.1-py2.py3-none-any.whl (5.0 kB)
+Collecting attrs>=19.2.0
+  Downloading attrs-21.2.0-py2.py3-none-any.whl (53 kB)
+Collecting py>=1.8.2
+  Using cached py-1.10.0-py2.py3-none-any.whl (97 kB)
+Collecting toml
+  Using cached toml-0.10.2-py2.py3-none-any.whl (16 kB)
 Collecting pytz>=2017.3
   Using cached pytz-2021.1-py2.py3-none-any.whl (510 kB)
 Collecting numpy>=1.16.5
-  Using cached numpy-1.20.2-cp38-cp38-manylinux2010_x86_64.whl (15.4 MB)
+  Downloading numpy-1.20.3-cp38-cp38-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (15.4 MB)
 Collecting python-dateutil>=2.7.3
   Using cached python_dateutil-2.8.1-py2.py3-none-any.whl (227 kB)
 Requirement already satisfied: six>=1.5 in ./.tox/py38/lib/python3.8/site-packages (from python-dateutil>=2.7.3->pandas) (1.14.0)
-Installing collected packages: snowballstemmer, pydocstyle, pycodestyle, attrs, toml, pluggy, py, iniconfig, pytest, pytz, numpy, python-dateutil, pandas
-Successfully installed attrs-20.3.0 iniconfig-1.1.1 numpy-1.20.2 pandas-1.2.3 pluggy-0.13.1 py-1.10.0 pycodestyle-2.7.0 pydocstyle-6.0.0 pytest-6.2.2 python-dateutil-2.8.1 pytz-2021.1 snowballstemmer-2.1.0 toml-0.10.2
+Installing collected packages: snowballstemmer, pydocstyle, pycodestyle, pluggy, iniconfig, attrs, py, toml, pytest, pytz, numpy, python-dateutil, pandas
+Successfully installed attrs-21.2.0 iniconfig-1.1.1 numpy-1.20.3 pandas-1.2.4 pluggy-0.13.1 py-1.10.0 pycodestyle-2.7.0 pydocstyle-6.0.0 pytest-6.2.4 python-dateutil-2.8.1 pytz-2021.1 snowballstemmer-2.1.0 toml-0.10.2
