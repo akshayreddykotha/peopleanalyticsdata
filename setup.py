@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="peopleanalyticsdata",
-    version="0.1.4",
+    version="0.1.5",
     url="https://github.com/akshayreddykotha/peopleanalyticsdata",
     author="Akshay Kotha",
     author_email="akotha@ucsd.edu",

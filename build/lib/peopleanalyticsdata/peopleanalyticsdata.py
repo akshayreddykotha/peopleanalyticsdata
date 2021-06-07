@@ -13,7 +13,8 @@ def list_sets():
            'managers', 'politics_survey',
            'salespeople', 'soccer',
            'sociological_data', 'speed_dating',
-           'ugtests']
+           'ugtests', 'employee_performance', 
+           'learning', 'graduates', 'promotion', 'recruiting']
 
 # charity_donation
 def charity_donation():
@@ -251,4 +252,93 @@ def ugtests():
     return pd.read_csv(stream)
 
 
+# employee_performance
+def employee_performance():
+    """Return a dataframe about the employee performance.
 
+    Contains the following fields:
+         #   Column         Non-Null Count  Dtype  
+        ---  ------         --------------  -----  
+         0   sales          366 non-null    float64
+         1   new_customers  366 non-null    int64  
+         2   region         366 non-null    object 
+         3   gender         366 non-null    object 
+         4   rating         366 non-null    int64 
+
+    """
+    stream = pkg_resources.resource_stream(__name__, 'data/employee_performance.csv')
+    return pd.read_csv(stream)
+
+# learning
+def learning():
+    """Return a dataframe about the learning.
+    
+    Contains the following fields:
+         #   Column  Non-Null Count  Dtype  
+        ---  ------  --------------  -----  
+         0   idcode  4974 non-null   int64  
+         1   rec     4974 non-null   int64  
+         2   rel     4850 non-null   float64
+         3   fun     4788 non-null   float64
+         4   clar    4756 non-null   float64
+         5   home    4547 non-null   float64
+         6   class   4336 non-null   float64
+         7   fac     4774 non-null   float64
+
+    """
+    stream = pkg_resources.resource_stream(__name__, 'data/learning.csv')
+    return pd.read_csv(stream)
+
+# graduates
+def graduates():
+    """Return a dataframe about the graduates.
+    
+    Contains the following fields:
+         #   Column             Non-Null Count  Dtype  
+        ---  ------             --------------  -----  
+         0   Major              173 non-null    object 
+         1   Discipline         173 non-null    object 
+         2   Total              173 non-null    int64  
+         3   Unemployment_rate  173 non-null    float64
+         4   Median_salary      173 non-null    int64  
+
+    """
+    stream = pkg_resources.resource_stream(__name__, 'data/graduates.csv')
+    return pd.read_csv(stream)
+
+# promotion
+def promotion():
+    """Return a dataframe about the promotion.
+    
+    Contains the following fields:
+         #   Column    Non-Null Count  Dtype
+        ---  ------    --------------  -----
+         0   diverse   1134 non-null   int64
+         1   flexible  1134 non-null   int64
+         2   store     1134 non-null   int64
+         3   promoted  1134 non-null   int64
+         4   year      1134 non-null   int64
+
+    """
+    stream = pkg_resources.resource_stream(__name__, 'data/promotion.csv')
+    return pd.read_csv(stream)
+
+# recruiting
+def recruiting():
+    """Return a dataframe about the recruiting.
+    
+    Contains the following fields:
+         #   Column   Non-Null Count  Dtype  
+        ---  ------   --------------  -----  
+         0   gender   966 non-null    object 
+         1   sat      966 non-null    int64  
+         2   gpa      966 non-null    float64
+         3   apttest  966 non-null    int64  
+         4   int1     966 non-null    int64  
+         5   int2     966 non-null    int64  
+         6   int3     966 non-null    int64  
+         7   hired    966 non-null    int64
+
+    """
+    stream = pkg_resources.resource_stream(__name__, 'data/recruiting.csv')
+    return pd.read_csv(stream)

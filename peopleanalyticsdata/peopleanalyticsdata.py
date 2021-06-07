@@ -199,15 +199,17 @@ def sociological_data():
     
     Contains the following fields:
     
-        #   Column       Non-Null Count  Dtype 
-        ---  ------       --------------  ----- 
-         0   discipline   2291 non-null   object
-         1   n_yellow_25  2291 non-null   int64 
-         2   n_red_25     2291 non-null   int64 
-         3   position     2291 non-null   object
-         4   result       2291 non-null   object
-         5   country      2291 non-null   object
-         6   level        2291 non-null   int64
+         #   Column             Non-Null Count  Dtype  
+        ---  ------             --------------  -----  
+         0   annual_income_ppp  2608 non-null   float64
+         1   average_wk_hrs     2584 non-null   float64
+         2   education_months   2599 non-null   float64
+         3   region             2618 non-null   object 
+         4   job_type           2618 non-null   object 
+         5   gender             2595 non-null   object 
+         6   family_size        2427 non-null   float64
+         7   work_distance      2206 non-null   float64
+         8   languages          2206 non-null   float64
     """
     stream = pkg_resources.resource_stream(__name__, 'data/sociological_data.csv')
     return pd.read_csv(stream)
