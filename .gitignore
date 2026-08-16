@@ -3,3 +3,4 @@
 .tox
 */.tox/*
 test.ipynb
+.Rproj.user
