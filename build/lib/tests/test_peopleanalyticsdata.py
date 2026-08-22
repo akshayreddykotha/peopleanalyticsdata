@@ -1,9 +1,9 @@
 import pytest, pandas
-from peopleanalyticsdata.peopleanalyticsdata import list_sets, charity_donation, employee_survey, health_insurance, job_retention, managers, politics_survey, salespeople, soccer, sociological_data, speed_dating, ugtests, employee_performance, learning, graduates, promotion, recruiting 
+from peopleanalyticsdata.peopleanalyticsdata import list_sets, charity_donation, employee_survey, health_insurance, job_retention, managers, politics_survey, salespeople, soccer, sociological_data, speed_dating, ugtests, employee_performance, learning, graduates, promotion, recruiting, absenteeism, complaints, selection
 
 def test_shape_of_output():
 #     assert type(charity_donation()) == '<class 'pandas.core.frame.DataFrame'>'
-    assert len(list_sets()) == 16
+    assert len(list_sets()) == 19
     assert charity_donation().shape[1] == 8
     assert employee_survey().shape[1] == 14
     assert health_insurance().shape[1] == 6
@@ -20,3 +20,6 @@ def test_shape_of_output():
     assert graduates().shape[1] == 5
     assert learning().shape[1] == 8
     assert recruiting().shape[1] == 8
+        assert absenteeism().shape[1] == 4
+        assert complaints().shape[1] == 7
+        assert selection().shape[1] == 5

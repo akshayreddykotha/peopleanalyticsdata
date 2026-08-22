@@ -7,14 +7,14 @@ import pandas as pd
 
 def list_sets():
     """Lists the data set names. All the data sets can be saved as a data frame by calling the names as methods."""
-    
     return ['charity_donation', 'employee_survey', 
            'health_insurance', 'job_retention', 
            'managers', 'politics_survey',
            'salespeople', 'soccer',
            'sociological_data', 'speed_dating',
            'ugtests', 'employee_performance', 
-           'learning', 'graduates', 'promotion', 'recruiting']
+           'learning', 'graduates', 'promotion', 'recruiting',
+           'absenteeism', 'complaints', 'selection']
 
 # charity_donation
 def charity_donation():
@@ -251,6 +251,39 @@ def ugtests():
          3   Final   975 non-null    int64
     """
     stream = pkg_resources.resource_stream(__name__, 'data/ugtests.csv')
+    return pd.read_csv(stream)
+
+
+# absenteeism
+def absenteeism():
+    """Return a dataframe about absenteeism
+
+    Contains the following fields:
+        days_absent, tenure, is_manager, performance_rating
+    """
+    stream = pkg_resources.resource_stream(__name__, 'data/absenteeism.csv')
+    return pd.read_csv(stream)
+
+
+# complaints
+def complaints():
+    """Return a dataframe about complaints
+
+    Contains the following fields:
+        n_complaints, experience, training_hours, workload, shift, remote, satisfaction_score
+    """
+    stream = pkg_resources.resource_stream(__name__, 'data/complaints.csv')
+    return pd.read_csv(stream)
+
+
+# selection
+def selection():
+    """Return a dataframe about selection
+
+    Contains the following fields:
+        GPA, Test, Pres, Int, Hire
+    """
+    stream = pkg_resources.resource_stream(__name__, 'data/selection.csv')
     return pd.read_csv(stream)
 
 
